@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#5b5bd6">
+<title>English Everyday — เกมฝึกภาษาอังกฤษทุกวัน</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="topbar" class="hidden">
+  <div class="topbar-inner">
+    <button id="btn-home" class="logo-btn" title="กลับหน้าหลัก">🏠 <span class="logo-text">English Everyday</span></button>
+    <div class="xp-wrap">
+      <div class="level-chip" id="level-chip">Lv.1</div>
+      <div class="xp-bar"><div class="xp-fill" id="xp-fill"></div></div>
+      <div class="xp-text" id="xp-text">0 XP</div>
+    </div>
+  </div>
+</header>
+
+<main id="screen"></main>
+
+<div id="toast-area"></div>
+
+<!-- ข้อมูลเกม -->
+<script src="data/vocab.js"></script>
+<script src="data/sentences.js"></script>
+<script src="data/conversations.js"></script>
+<!-- ระบบหลัก -->
+<script src="js/storage.js"></script>
+<script src="js/speech.js"></script>
+<script src="js/daily.js"></script>
+<script src="js/placement.js"></script>
+<!-- โหมดเกม -->
+<script src="js/modes/conversation.js"></script>
+<script src="js/modes/flashcards.js"></script>
+<script src="js/modes/fillblank.js"></script>
+<script src="js/modes/listening.js"></script>
+<!-- ตัวควบคุมหลัก -->
+<script src="js/app.js"></script>
+</body>
+</html>
